@@ -1,13 +1,14 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser'
+import { NgModule } from '@angular/core'
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HomeComponent } from './views/home/home.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { ContacusComponent } from './views/contacus/contacus.component';
-import { AboutusComponent } from './views/aboutus/aboutus.component';
+import { AppRoutingModule } from './app-routing.module'
+import { AppComponent } from './app.component'
+import { HomeComponent } from './pages/home/home.component'
+import { NavbarComponent } from './components/navbar/navbar.component'
+import { FooterComponent } from './components/footer/footer.component'
+import { ContacusComponent } from './pages/contacus/contacus.component'
+import { AboutusComponent } from './pages/aboutus/aboutus.component'
+import { SigninComponent } from './pages/signin/signin.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AboutusComponent } from './views/aboutus/aboutus.component';
     NavbarComponent,
     FooterComponent,
     ContacusComponent,
-    AboutusComponent
+    AboutusComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,
