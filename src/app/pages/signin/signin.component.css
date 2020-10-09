@@ -1,0 +1,11 @@
+.signin {
+ height: 100vh !important;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#formSignin {
+  width: 400px;
+}
+
