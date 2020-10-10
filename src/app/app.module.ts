@@ -11,7 +11,8 @@ import { AboutusComponent } from './pages/aboutus/aboutus.component'
 import { SigninComponent } from './pages/signin/signin.component';
 import { AdminComponent } from './pages/admin/admin.component';
 import { TeacherRegistrationComponent } from './components/teacher-registration/teacher-registration.component';
-import { ProgramRegistrationComponent } from './components/program-registration/program-registration.component'
+import { ProgramRegistrationComponent } from './components/program-registration/program-registration.component';
+import { FrequentQuestionsComponent } from './components/frequent-questions/frequent-questions.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ProgramRegistrationComponent } from './components/program-registration/
     SigninComponent,
     AdminComponent,
     TeacherRegistrationComponent,
-    ProgramRegistrationComponent
+    ProgramRegistrationComponent,
+    FrequentQuestionsComponent
   ],
   imports: [
     BrowserModule,
