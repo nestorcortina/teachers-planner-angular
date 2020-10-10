@@ -13,6 +13,7 @@ import { AdminComponent } from './pages/admin/admin.component';
 import { TeacherRegistrationComponent } from './components/teacher-registration/teacher-registration.component';
 import { ProgramRegistrationComponent } from './components/program-registration/program-registration.component';
 import { FrequentQuestionsComponent } from './components/frequent-questions/frequent-questions.component'
+import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FrequentQuestionsComponent } from './components/frequent-questions/freq
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

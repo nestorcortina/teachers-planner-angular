@@ -7,6 +7,7 @@ import { AboutusComponent } from './pages/aboutus/aboutus.component'
 import { ContacusComponent } from './pages/contacus/contacus.component'
 import { AdminComponent } from './pages/admin/admin.component'
 
+
 const routes: Routes = [
   { path: '', component: HomeComponent },
   {
@@ -16,7 +17,10 @@ const routes: Routes = [
   },
   { path: 'about', component: AboutusComponent },
   { path: 'contact', component: ContacusComponent },
-  { path: 'signin', component: SigninComponent }
+  {
+    path: 'signin',
+    component: SigninComponent
+  }
 ]
 
 @NgModule({
