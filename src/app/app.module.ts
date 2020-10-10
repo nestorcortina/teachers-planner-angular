@@ -8,7 +8,10 @@ import { NavbarComponent } from './components/navbar/navbar.component'
 import { FooterComponent } from './components/footer/footer.component'
 import { ContacusComponent } from './pages/contacus/contacus.component'
 import { AboutusComponent } from './pages/aboutus/aboutus.component'
-import { SigninComponent } from './pages/signin/signin.component'
+import { SigninComponent } from './pages/signin/signin.component';
+import { AdminComponent } from './pages/admin/admin.component';
+import { TeacherRegistrationComponent } from './components/teacher-registration/teacher-registration.component';
+import { ProgramRegistrationComponent } from './components/program-registration/program-registration.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { SigninComponent } from './pages/signin/signin.component'
     FooterComponent,
     ContacusComponent,
     AboutusComponent,
-    SigninComponent
+    SigninComponent,
+    AdminComponent,
+    TeacherRegistrationComponent,
+    ProgramRegistrationComponent
   ],
   imports: [
     BrowserModule,

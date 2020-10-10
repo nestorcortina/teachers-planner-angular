@@ -1,7 +1,14 @@
+#navbar {
+  /*color: #174446 !important;*/
+  background-color: #ff6666 !important;
+
+}
 #navbar a {
-  color: white !important;
+  /*color: #174446 !important;*/
+
+  color: white;
 }
 
-.success {
+/*.success {
   background-color: #ff6666 !important;
-}
+}*/

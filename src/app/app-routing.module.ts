@@ -5,12 +5,13 @@ import { SigninComponent } from './pages/signin/signin.component'
 import { HomeComponent } from './pages/home/home.component'
 import { AboutusComponent } from './pages/aboutus/aboutus.component'
 import { ContacusComponent } from './pages/contacus/contacus.component'
+import { AdminComponent } from './pages/admin/admin.component'
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   {
     path: 'admin',
-    component: HomeComponent,
+    component: AdminComponent,
     canActivate: [AuthService]
   },
   { path: 'about', component: AboutusComponent },
