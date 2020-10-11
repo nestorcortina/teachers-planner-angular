@@ -13,7 +13,9 @@ import { AdminComponent } from './pages/admin/admin.component';
 import { TeacherRegistrationComponent } from './components/teacher-registration/teacher-registration.component';
 import { ProgramRegistrationComponent } from './components/program-registration/program-registration.component';
 import { FrequentQuestionsComponent } from './components/frequent-questions/frequent-questions.component'
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { PieChartComponent } from './components/pie-chart/pie-chart.component';
+import { TableReportComponent } from './components/table-report/table-report.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { FormsModule } from '@angular/forms'
     AdminComponent,
     TeacherRegistrationComponent,
     ProgramRegistrationComponent,
-    FrequentQuestionsComponent
+    FrequentQuestionsComponent,
+    PieChartComponent,
+    TableReportComponent
   ],
   imports: [
     BrowserModule,

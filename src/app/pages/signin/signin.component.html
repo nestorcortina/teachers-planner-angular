@@ -1,21 +1,27 @@
-<div class="container signin">
-  <form id="formSignin" class="px-4 py-5" (ngSubmit)="signin()" style="background: rgba(240,240,240,0.95); border-radius: 2vh;">
-    <i class="fas fa-users mb-4" style="font-size: 74px;"></i>
-    <div class="form-group">
-      <input type="email" [(ngModel)]="email" placeholder="Email address" class="form-control" name="email" autofocus>
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-        else.</small>
-    </div>
-    <div class="form-group">
-      <input type="password" [(ngModel)]="password" placeholder="********" class="form-control" name="password">
-    </div>
-    <div class="form-group form-check">
-      <input type="checkbox" class="form-check-input" id="rememberme">
-      <label class="form-check-label">Remember me</label>
-    </div>
-      <button [disabled]="(email.trim().length === 0 || password.trim().length === 0)" class="btn btn-primary btn-block margin-top-10">
+<div id="signin">
+  <div class="container signin">
+    <form id="formSignin" class="px-4 py-5" (ngSubmit)="signin()">
+
+      <img src="/assets/img/illustrations/login.svg" class="d-block">
+
+      <div class="form-group">
+        <input type="email" [(ngModel)]="email" placeholder="Email address" class="form-control" name="email" autofocus>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+          else.</small>
+      </div>
+      <div class="form-group">
+        <input type="password" [(ngModel)]="password" placeholder="********" class="form-control" name="password">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="rememberme">
+        <label class="form-check-label">Remember me</label>
+      </div>
+      <button [disabled]="(email.trim().length === 0 || password.trim().length === 0)"
+        class="btn btn-primary btn-block margin-top-10">
         Signin
-    </button>
-  </form>
+      </button>
+    </form>
+
+  </div>
 
 </div>

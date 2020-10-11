@@ -5,6 +5,24 @@
  align-items: center;
 }
 
+.signin img {
+  width: 60%;
+  margin: 0 auto;
+ }
+
 #formSignin {
   width: 350px;
+  background: #418b7830;
+  border-radius: 2vh;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ff6666;
+  border-color: #ff6666;
+}
+
+.btn-primary:hover {
+  background-color: #f94747 !important;
+  border-color: #f94747 !important;
 }
