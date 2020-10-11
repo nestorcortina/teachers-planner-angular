@@ -16,6 +16,7 @@ import { FrequentQuestionsComponent } from './components/frequent-questions/freq
 import { FormsModule } from '@angular/forms';
 import { PieChartComponent } from './components/pie-chart/pie-chart.component';
 import { TableReportComponent } from './components/table-report/table-report.component';
+import { SubjectsComponent } from './components/subjects/subjects.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { TableReportComponent } from './components/table-report/table-report.com
     ProgramRegistrationComponent,
     FrequentQuestionsComponent,
     PieChartComponent,
-    TableReportComponent
+    TableReportComponent,
+    SubjectsComponent
   ],
   imports: [
     BrowserModule,
