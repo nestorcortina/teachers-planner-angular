@@ -14,9 +14,9 @@ import { TeacherRegistrationComponent } from './components/teacher-registration/
 import { ProgramRegistrationComponent } from './components/program-registration/program-registration.component';
 import { FrequentQuestionsComponent } from './components/frequent-questions/frequent-questions.component'
 import { FormsModule } from '@angular/forms';
-import { PieChartComponent } from './components/pie-chart/pie-chart.component';
 import { TableReportComponent } from './components/table-report/table-report.component';
 import { SubjectsComponent } from './components/subjects/subjects.component';
+import { ProfileComponent } from './components/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -31,9 +31,9 @@ import { SubjectsComponent } from './components/subjects/subjects.component';
     TeacherRegistrationComponent,
     ProgramRegistrationComponent,
     FrequentQuestionsComponent,
-    PieChartComponent,
     TableReportComponent,
-    SubjectsComponent
+    SubjectsComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
